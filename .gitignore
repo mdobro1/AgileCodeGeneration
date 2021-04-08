@@ -3,3 +3,12 @@
 ################################################################################
 
 /.vs
+/ExcelCodeGen/.vs/ExcelCodeGen/v16
+/ExcelCodeGen/.vs/ExcelCodeGen/DesignTimeBuild
+/ExcelCodeGen/GenExampleCodeDOM/obj/Debug
+/ExcelCodeGen/GenExampleT4/bin/Debug/netcoreapp3.1
+/ExcelCodeGen/GenExampleT4/obj/Debug/netcoreapp3.1
+/ExcelCodeGen/GenExampleT4/obj
+/ExcelCodeGen/GenExampleT4Model/bin/Debug/netstandard2.0
+/ExcelCodeGen/GenExampleT4Model/obj
+/ExcelCodeGen/TargetCodeDOM/obj
