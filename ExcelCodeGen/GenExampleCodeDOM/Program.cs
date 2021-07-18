@@ -265,18 +265,18 @@ namespace GenExampleCodeDOM
         /// The path to the file to contain the source code in target project.
         /// </summary>
         /// <returns></returns>
-        public static string OutputFileOfTargetProject()
+        public static string OutputFileOfTargetProject
         {
-            return String.Format(@"..\..\..\{0}\{1}", TargetProject, OutputFileName);
+            get { return String.Format(@"..\..\..\{0}\{1}", TargetProject, OutputFileName); }
         }
 
         /// <summary>
         /// The path to the file to contain the source code in current project.
         /// </summary>
         /// <returns></returns>
-        public static string OutputFileOfCurrProject()
+        public static string OutputFileOfCurrProject
         {
-            return String.Format(@"..\..\{0}", OutputFileName);
+            get { return String.Format(@"..\..\{0}", OutputFileName); }
         }
 
         private static void GenerateCode(string fileName)
@@ -301,18 +301,18 @@ namespace GenExampleCodeDOM
 
         private static void GenerateCodeInTargetProject()
         {
-            if (!File.Exists(OutputFileOfTargetProject()))
+            if (!File.Exists(OutputFileOfTargetProject))
             {
                 // generate sample class in target project
-                GenerateCode(OutputFileOfTargetProject());
+                GenerateCode(OutputFileOfTargetProject);
             }
         }
         private static void GenerateCodeInCurrentProject()
         {
-            if (!File.Exists(OutputFileOfTargetProject()))
+            if (!File.Exists(OutputFileOfTargetProject))
             {
                 // generate sample class in current project
-                GenerateCode(OutputFileOfCurrProject());
+                GenerateCode(OutputFileOfCurrProject);
                 AddGeneratedFileToCurrentProject();
             }
         }

@@ -1,0 +1,27 @@
+﻿<#@ assembly name="$(SolutionDir)GenExampleT4Model\bin\Debug\netstandard2.0\GenExampleT4Model.dll" #>
+<#@ import namespace="GenExampleT4Model" #>
+<html><body>
+<!-- Dieser Code wurde von einem Tool generiert. -->
+<h1>Properties of the generated Class "<#= RectangleModel.Class #>"</h1>
+<hr>
+<h2>Fields:</h2>
+<table>
+<# 
+    var i = 0;
+    var values = RectangleModel.InitialValues.Split(',');
+
+    foreach (var field in RectangleModel.Fields.Split(','))
+    { #>
+      <tr>
+        <td> <#= field #> = </td>
+        <td> <#= values[i] #> </td>
+      </tr>
+<# 
+        i++; //  get next value
+    } // end of foreach
+#>
+</table>
+<hr>
+<h2> Rules: </h2>
+ Rectangle-Area = <#= RectangleModel.AreaFormula #> 
+</body></html>

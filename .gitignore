@@ -12,3 +12,14 @@
 /ExcelCodeGen/GenExampleT4Model/bin/Debug/netstandard2.0
 /ExcelCodeGen/GenExampleT4Model/obj
 /ExcelCodeGen/TargetCodeDOM/obj
+/ExcelCodeGen/GenExampleCodeDOM/bin/Debug
+/ExcelCodeGen/GenExampleRuntimeT4/bin/Debug
+/ExcelCodeGen/GenExampleRuntimeT4/obj/Debug
+/ExcelCodeGen/TargetRuntimeT4/bin/Debug/netcoreapp3.1
+/ExcelCodeGen/TargetRuntimeT4/obj
+/ExcelCodeGen/PolygonTestCircle/bin/Debug/netcoreapp3.1
+/ExcelCodeGen/PolygonTestCircle/obj
+/ExcelCodeGen/PolygonTestRectangle/bin/Debug/netcoreapp3.1
+/ExcelCodeGen/PolygonTestRectangle/obj
+/ExcelCodeGen/PolygonTestTrapezoid/bin/Debug/netcoreapp3.1
+/ExcelCodeGen/PolygonTestTrapezoid/obj
