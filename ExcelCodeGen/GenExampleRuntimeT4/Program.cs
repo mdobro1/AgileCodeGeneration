@@ -29,6 +29,5 @@ namespace GenExampleRuntimeT4
             File.WriteAllText(ReportFilename, gencodeReportText);
             System.Diagnostics.Process.Start(ReportFilename);
         }
-
     }
 }

@@ -13,6 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenExampleT4Model", "GenExa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Excel  - Code Generation", "3. Excel  - Code Generation", "{63DF6499-D32F-465D-B51B-8A95E0FB4469}"
 	ProjectSection(SolutionItems) = preProject
+		ExcelSqlCodeGen.xlsx = ExcelSqlCodeGen.xlsx
 		PolygonCodeGenerator.xlsm = PolygonCodeGenerator.xlsm
 	EndProjectSection
 EndProject
@@ -30,11 +31,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 dynamic", "2.2 dynamic"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "model", "model", "{01EAC29C-B1EA-4F91-81D8-51F3EBAEF56E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonTestCircle", "PolygonTestCircle\PolygonTestCircle.csproj", "{B20F22F9-D649-4A1F-A5D4-BFCAA90FD225}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolygonTestCircle", "PolygonTestCircle\PolygonTestCircle.csproj", "{B20F22F9-D649-4A1F-A5D4-BFCAA90FD225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonTestRectangle", "PolygonTestRectangle\PolygonTestRectangle.csproj", "{0373A760-33FE-4A9E-9791-DA5D8487FA57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolygonTestRectangle", "PolygonTestRectangle\PolygonTestRectangle.csproj", "{0373A760-33FE-4A9E-9791-DA5D8487FA57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonTestTrapezoid", "PolygonTestTrapezoid\PolygonTestTrapezoid.csproj", "{69CEF102-B798-4081-90AC-56860C1005CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolygonTestTrapezoid", "PolygonTestTrapezoid\PolygonTestTrapezoid.csproj", "{69CEF102-B798-4081-90AC-56860C1005CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

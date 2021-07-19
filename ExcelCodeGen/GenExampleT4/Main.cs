@@ -5,7 +5,7 @@
 //------------------------------------------------------------------------------
 namespace T4Sample
 {
-    using System;   
+    using System;
     
     public sealed class T4SampleRectangle
     {   
