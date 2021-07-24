@@ -3,45 +3,61 @@
 //     Dieser Code wurde von einem Tool generiert.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace T4Sample
+namespace PolygonSamples
 {
     using System;   
     
-    public sealed class T4SampleRectangle
+    public sealed class SampleTrapezoid
     {   
-        // The width of the object.
-        private double widthValue;
+        // The shortBase of the object.
+        private double shortBaseValue;
 
-        // The Width property for the object.
-        public double Width { get { return this.widthValue; }  }
+        // The ShortBase property for the object.
+        public double ShortBase { get { return this.shortBaseValue; }  }
             
-        // The height of the object.
-        private double heightValue;
+        // The longBase of the object.
+        private double longBaseValue;
 
-        // The Height property for the object.
-        public double Height { get { return this.heightValue; }  }
+        // The LongBase property for the object.
+        public double LongBase { get { return this.longBaseValue; }  }
+            
+        // The leftLeg of the object.
+        private double leftLegValue;
+
+        // The LeftLeg property for the object.
+        public double LeftLeg { get { return this.leftLegValue; }  }
+            
+        // The rightLeg of the object.
+        private double rightLegValue;
+
+        // The RightLeg property for the object.
+        public double RightLeg { get { return this.rightLegValue; }  }
                     
-        public T4SampleRectangle(double width, double height)
+        public SampleTrapezoid(double shortBase, double longBase, double leftLeg, double rightLeg)
         {
-            this.widthValue = width;
-            this.heightValue = height;
+            this.shortBaseValue = shortBase;
+            this.longBaseValue = longBase;
+            this.leftLegValue = leftLeg;
+            this.rightLegValue = rightLeg;
             }
         
-        // The Area property for the object.
-        public double Area { get { return Width * Height; } }
+        // The Perimeter property for the object.
+        public double Perimeter { get { return ShortBase + LongBase + LeftLeg + RightLeg; } }
         
         public override string ToString()
         {
-            var result = string.Format("The rectangle object:\r\n Area = {0}", this.Area);
-            result += string.Format("\r\n Width = {0}", Width);
-            result += string.Format("\r\n Height = {0}", Height);
+            var result = string.Format("The Trapezoid object:\r\n Perimeter = {0}", this.Perimeter);
+            result += string.Format("\r\n ShortBase = {0}", ShortBase);
+            result += string.Format("\r\n LongBase = {0}", LongBase);
+            result += string.Format("\r\n LeftLeg = {0}", LeftLeg);
+            result += string.Format("\r\n RightLeg = {0}", RightLeg);
             return result;
         }
         
         public static void Main()
         {
-            var testRectangle = new T4SampleRectangle(5.3D,6.9D);
-            System.Console.WriteLine(testRectangle.ToString());
+            var testTrapezoid = new SampleTrapezoid(20.0D,30.0D,13.0D,13.0D);
+            System.Console.WriteLine(testTrapezoid.ToString());
         }
     }
 }

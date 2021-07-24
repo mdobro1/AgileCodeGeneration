@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CodeDOMSample
+namespace CodeDOMPolygonSample
 {
     using System;
     
     
-    public sealed class CodeDOMCreatedClass
+    public sealed class CodeDOMRectangleClass
     {
         
         // The width of the object.
@@ -22,7 +22,7 @@ namespace CodeDOMSample
         // The height of the object.
         private double heightValue;
         
-        public CodeDOMCreatedClass(double width, double height)
+        public CodeDOMRectangleClass(double width, double height)
         {
             this.widthValue = width;
             this.heightValue = height;
@@ -57,13 +57,13 @@ namespace CodeDOMSample
         
         public override string ToString()
         {
-            return string.Format("The object:\r\n width = {0},\r\n height = {1},\r\n area = {2}", this.Width, this.Height, this.Area);
+            return string.Format("The rectangle object:\r\n width = {0},\r\n height = {1},\r\n area = {2}", this.Width, this.Height, this.Area);
         }
         
         public static void Main()
         {
-            CodeDOMCreatedClass testClass = new CodeDOMCreatedClass(5.3D, 6.9D);
-            System.Console.WriteLine(testClass.ToString());
+            CodeDOMRectangleClass rectangleObject = new CodeDOMRectangleClass(15D, 10D);
+            System.Console.WriteLine(rectangleObject.ToString());
         }
     }
 }

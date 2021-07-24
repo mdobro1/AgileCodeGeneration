@@ -3,11 +3,11 @@
 //     Dieser Code wurde von einem Tool generiert.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace T4Sample
+namespace PolygonSamples
 {
     using System;
-    
-    public sealed class T4SampleRectangle
+
+    public sealed class SampleRectangle
     {   
         // The width of the object.
         private double widthValue;
@@ -21,7 +21,7 @@ namespace T4Sample
         // The Height property for the object.
         public double Height { get { return this.heightValue; }  }
                     
-        public T4SampleRectangle(double width, double height)
+        public SampleRectangle(double width, double height)
         {
             this.widthValue = width;
             this.heightValue = height;
@@ -40,7 +40,7 @@ namespace T4Sample
         
         public static void Main()
         {
-            var testRectangle = new T4SampleRectangle(5.3D,6.9D);
+            var testRectangle = new SampleRectangle(15.0D,10.0D);
             System.Console.WriteLine(testRectangle.ToString());
         }
     }

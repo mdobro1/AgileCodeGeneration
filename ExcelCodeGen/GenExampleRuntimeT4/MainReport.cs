@@ -9,7 +9,7 @@
 // ------------------------------------------------------------------------------
 namespace GenExampleRuntimeT4
 {
-    using GenExampleT4Model;
+    using PolygonModels;
     using System;
     
     /// <summary>

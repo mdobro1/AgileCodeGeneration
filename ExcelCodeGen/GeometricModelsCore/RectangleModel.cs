@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GenExampleT4Model
+namespace FlatModels
 {
     public static class RectangleModel
     {
-        public const string Namespace = "T4Sample";
-        public const string Class = "T4SampleRectangle";
+        public const string Namespace = "PolygonSamples";
+        public const string Class = "SampleRectangle";
         public const string Types = "double,double";
         public const string Fields = "width,height";
         public const string Properties = "Width,Height";
-        public const string InitialValues = "5.3D,6.9D";
+        public const string InitialValues = "15.0D,10.0D";
         public const string AreaFormula = "Width * Height";
     }
 }

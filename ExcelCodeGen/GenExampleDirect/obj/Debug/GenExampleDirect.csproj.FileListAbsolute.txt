@@ -1,0 +1,9 @@
+C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleDirect\bin\Debug\GenExampleDirect.exe.config
+C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleDirect\bin\Debug\GenExampleDirect.exe
+C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleDirect\bin\Debug\GenExampleDirect.pdb
+C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleDirect\bin\Debug\GeometricModels.dll
+C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleDirect\bin\Debug\GeometricModels.pdb
+C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleDirect\obj\Debug\GenExampleDirect.csprojAssemblyReference.cache
+C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleDirect\obj\Debug\GenExampleDirect.csproj.CopyComplete
+C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleDirect\obj\Debug\GenExampleDirect.exe
+C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleDirect\obj\Debug\GenExampleDirect.pdb

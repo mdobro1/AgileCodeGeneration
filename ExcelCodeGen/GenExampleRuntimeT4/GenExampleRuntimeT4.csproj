@@ -43,27 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainReport.cs">
-      <DependentUpon>MainReport.tt</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <Compile Include="Main.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Main.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MainReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainReport.tt</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\GenExampleT4Model\GenExampleT4Model.csproj">
-      <Project>{96ba45a0-4f3a-4afb-871c-10423f4522b6}</Project>
-      <Name>GenExampleT4Model</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
@@ -77,6 +71,12 @@
       <Generator>TextTemplatingFilePreprocessor</Generator>
       <LastGenOutput>Main.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PolygonModels\PolygonModels.csproj">
+      <Project>{a61f6874-78eb-4181-a5ed-4373f0ffe209}</Project>
+      <Name>PolygonModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

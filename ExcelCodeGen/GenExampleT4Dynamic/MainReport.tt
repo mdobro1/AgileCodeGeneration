@@ -1,0 +1,27 @@
+﻿<#@ assembly name="$(SolutionDir)GeometricModels\bin\Debug\netstandard2.0\GeometricModels.dll" #>
+<#@ import namespace="FlatModels" #>
+<html><body>
+<!-- Dieser Code wurde von einem Tool generiert. -->
+<h1>Properties of the generated <br>Class "<#= TrapezoidModel.Class #>"</h1>
+<hr>
+<h2>Properties:</h2>
+<table>
+<# 
+    var i = 0;
+    var values = TrapezoidModel.InitialValues.Split(',');
+
+    foreach (var property in TrapezoidModel.Properties.Split(','))
+    { #>
+      <tr>
+        <td> <#= property #> = </td>
+        <td> <#= values[i] #> </td>
+      </tr>
+<# 
+        i++; //  get next value
+    } // end of foreach
+#>
+</table>
+<hr>
+<h2> Rules: </h2>
+ Trapezoid-Perimeter = <#= TrapezoidModel.PerimeterFormula #> 
+</body></html>

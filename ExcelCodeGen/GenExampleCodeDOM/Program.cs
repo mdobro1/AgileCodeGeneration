@@ -17,15 +17,24 @@ namespace GenExampleCodeDOM
     class CodeDOMGeneratorSample
     {
         /// <summary>
+        /// Create the CodeDOM graph and generate the code.
+        /// </summary>
+        static void Main()
+        {
+            GenerateCodeInTargetProject();
+            // GenerateCodeInCurrentProject();
+        }
+
+        /// <summary>
         /// Define the compile unit to use for code generation.
         /// </summary>
-        CodeCompileUnit targetUnit;
+        private CodeCompileUnit targetUnit;
 
         /// <summary>
         /// The only class in the compile unit. This class contains 2 fields,
         /// 3 properties, a constructor, an entry point, and 1 simple method.
         /// </summary>
-        CodeTypeDeclaration targetClass;
+        private CodeTypeDeclaration targetClass;
 
         /// <summary>
         /// Define the class.
@@ -33,9 +42,9 @@ namespace GenExampleCodeDOM
         public CodeDOMGeneratorSample()
         {
             targetUnit = new CodeCompileUnit();
-            CodeNamespace samples = new CodeNamespace("CodeDOMSample");
+            CodeNamespace samples = new CodeNamespace("CodeDOMPolygonSample");
             samples.Imports.Add(new CodeNamespaceImport("System"));
-            targetClass = new CodeTypeDeclaration("CodeDOMCreatedClass");
+            targetClass = new CodeTypeDeclaration("CodeDOMRectangleClass");
             targetClass.IsClass = true;
             targetClass.TypeAttributes =
                 TypeAttributes.Public | TypeAttributes.Sealed;
@@ -154,7 +163,7 @@ namespace GenExampleCodeDOM
 
             // This statement returns a string representation of the width,
             // height, and area.
-            string formattedOutput = "The object:" + Environment.NewLine +
+            string formattedOutput = "The rectangle object:" + Environment.NewLine +
                 " width = {0}," + Environment.NewLine +
                 " height = {1}," + Environment.NewLine +
                 " area = {2}";
@@ -204,29 +213,29 @@ namespace GenExampleCodeDOM
             // following code fill be generated
             /// public static void Main()
             /// {
-            ///     CodeDOMCreatedClass testClass = new CodeDOMCreatedClass(5.3D, 6.9D);
-            ///     System.Console.WriteLine(testClass.ToString());
+            ///     CodeDOMRectangleClass rectangleObject = new CodeDOMRectangleClass(15.0D, 10.0D);
+            ///     System.Console.WriteLine(rectangleObject.ToString());
             /// }
 
             CodeEntryPointMethod start = new CodeEntryPointMethod();
             CodeObjectCreateExpression objectCreate =
                 new CodeObjectCreateExpression(
-                new CodeTypeReference("CodeDOMCreatedClass"),
-                new CodePrimitiveExpression(5.3),
-                new CodePrimitiveExpression(6.9));
+                new CodeTypeReference("CodeDOMRectangleClass"),
+                new CodePrimitiveExpression(15.0),
+                new CodePrimitiveExpression(10.0));
 
             // Add the statement:
-            // "CodeDOMCreatedClass testClass =
-            //     new CodeDOMCreatedClass(5.3, 6.9);"
+            // "CodeDOMRectangleClass rectangleObject =
+            //     new CodeDOMRectangleClass(15.0, 10.0);"
             start.Statements.Add(new CodeVariableDeclarationStatement(
-                new CodeTypeReference("CodeDOMCreatedClass"), "testClass",
+                new CodeTypeReference("CodeDOMRectangleClass"), "rectangleObject",
                 objectCreate));
 
             // Creat the expression:
-            // "testClass.ToString()"
+            // "rectangleObject.ToString()"
             CodeMethodInvokeExpression toStringInvoke =
                 new CodeMethodInvokeExpression(
-                new CodeVariableReferenceExpression("testClass"), "ToString");
+                new CodeVariableReferenceExpression("rectangleObject"), "ToString");
 
             // Add a System.Console.WriteLine statement with the previous
             // expression as a parameter.
@@ -290,22 +299,13 @@ namespace GenExampleCodeDOM
             codeGenerator.GenerateCSharpCode(fileName);
         }
 
-        /// <summary>
-        /// Create the CodeDOM graph and generate the code.
-        /// </summary>
-        static void Main()
-        {
-            GenerateCodeInTargetProject();
-            // GenerateCodeInCurrentProject();
-        }
-
         private static void GenerateCodeInTargetProject()
         {
-            if (!File.Exists(OutputFileOfTargetProject))
-            {
+            //if (!File.Exists(OutputFileOfTargetProject))
+            //{
                 // generate sample class in target project
                 GenerateCode(OutputFileOfTargetProject);
-            }
+            //}
         }
         private static void GenerateCodeInCurrentProject()
         {
