@@ -1,4 +1,5 @@
-﻿<#@ assembly name="$(SolutionDir)GeometricModels\bin\Debug\netstandard2.0\GeometricModels.dll" #>
+﻿<#@ template debug="false" hostspecific="false" linePragmas="false" #>
+<#@ assembly name="$(SolutionDir)GeometricModels\bin\Debug\netstandard2.0\GeometricModels.dll" #>
 <#@ import namespace="FlatModels" #>
 <html><body>
 <!-- Dieser Code wurde von einem Tool generiert. -->

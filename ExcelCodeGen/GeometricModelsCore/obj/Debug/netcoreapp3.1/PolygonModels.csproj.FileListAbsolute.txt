@@ -1,8 +1,0 @@
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModels\bin\Debug\netcoreapp3.1\PolygonModels.deps.json
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModels\bin\Debug\netcoreapp3.1\PolygonModels.dll
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModels\bin\Debug\netcoreapp3.1\PolygonModels.pdb
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModels\obj\Debug\netcoreapp3.1\PolygonModels.csprojAssemblyReference.cache
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModels\obj\Debug\netcoreapp3.1\PolygonModels.AssemblyInfoInputs.cache
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModels\obj\Debug\netcoreapp3.1\PolygonModels.AssemblyInfo.cs
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModels\obj\Debug\netcoreapp3.1\PolygonModels.dll
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModels\obj\Debug\netcoreapp3.1\PolygonModels.pdb

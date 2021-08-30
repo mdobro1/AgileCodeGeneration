@@ -15,12 +15,9 @@ namespace GenExampleT4Dynamic
     /// <summary>
     /// Class to produce the template output
     /// </summary>
-    
-    #line 1 "C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\MainReport.tt"
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplating", "16.0.0.0")]
     public partial class MainReport : MainReportBase
     {
-#line hidden
         /// <summary>
         /// Create the template output
         /// </summary>
@@ -28,62 +25,29 @@ namespace GenExampleT4Dynamic
         {
             this.Write("<html><body>\r\n<!-- Dieser Code wurde von einem Tool generiert. -->\r\n<h1>Propertie" +
                     "s of the generated <br>Class \"");
-            
-            #line 5 "C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\MainReport.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(TrapezoidModel.Class));
-            
-            #line default
-            #line hidden
             this.Write("\"</h1>\r\n<hr>\r\n<h2>Properties:</h2>\r\n<table>\r\n");
-            
-            #line 9 "C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\MainReport.tt"
  
     var i = 0;
     var values = TrapezoidModel.InitialValues.Split(',');
 
     foreach (var property in TrapezoidModel.Properties.Split(','))
     { 
-            
-            #line default
-            #line hidden
             this.Write("      <tr>\r\n        <td> ");
-            
-            #line 16 "C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\MainReport.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(property));
-            
-            #line default
-            #line hidden
             this.Write(" = </td>\r\n        <td> ");
-            
-            #line 17 "C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\MainReport.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(values[i]));
-            
-            #line default
-            #line hidden
             this.Write(" </td>\r\n      </tr>\r\n");
-            
-            #line 19 "C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\MainReport.tt"
  
         i++; //  get next value
     } // end of foreach
 
-            
-            #line default
-            #line hidden
             this.Write("</table>\r\n<hr>\r\n<h2> Rules: </h2>\r\n Trapezoid-Perimeter = ");
-            
-            #line 26 "C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\MainReport.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(TrapezoidModel.PerimeterFormula));
-            
-            #line default
-            #line hidden
             this.Write(" \r\n</body></html>");
             return this.GenerationEnvironment.ToString();
         }
     }
-    
-    #line default
-    #line hidden
     #region Base class
     /// <summary>
     /// Base class for this transformation

@@ -1,7 +1,0 @@
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GeometricModels\obj\Debug\netstandard2.0\GeometricModels.AssemblyInfoInputs.cache
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GeometricModels\obj\Debug\netstandard2.0\GeometricModels.AssemblyInfo.cs
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GeometricModels\bin\Debug\netstandard2.0\GeometricModels.deps.json
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GeometricModels\bin\Debug\netstandard2.0\GeometricModels.dll
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GeometricModels\bin\Debug\netstandard2.0\GeometricModels.pdb
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GeometricModels\obj\Debug\netstandard2.0\GeometricModels.dll
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GeometricModels\obj\Debug\netstandard2.0\GeometricModels.pdb

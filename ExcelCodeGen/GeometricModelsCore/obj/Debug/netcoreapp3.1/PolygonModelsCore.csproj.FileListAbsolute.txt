@@ -1,7 +1,0 @@
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModelsCore\bin\Debug\netcoreapp3.1\PolygonModelsCore.deps.json
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModelsCore\bin\Debug\netcoreapp3.1\PolygonModelsCore.dll
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModelsCore\bin\Debug\netcoreapp3.1\PolygonModelsCore.pdb
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModelsCore\obj\Debug\netcoreapp3.1\PolygonModelsCore.AssemblyInfoInputs.cache
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModelsCore\obj\Debug\netcoreapp3.1\PolygonModelsCore.AssemblyInfo.cs
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModelsCore\obj\Debug\netcoreapp3.1\PolygonModelsCore.dll
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\PolygonModelsCore\obj\Debug\netcoreapp3.1\PolygonModelsCore.pdb
