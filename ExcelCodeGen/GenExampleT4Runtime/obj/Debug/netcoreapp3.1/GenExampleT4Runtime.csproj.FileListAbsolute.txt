@@ -1,3 +1,0 @@
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Runtime\obj\Debug\netcoreapp3.1\GenExampleT4Runtime.csprojAssemblyReference.cache
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Runtime\obj\Debug\netcoreapp3.1\GenExampleT4Runtime.AssemblyInfoInputs.cache
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Runtime\obj\Debug\netcoreapp3.1\GenExampleT4Runtime.AssemblyInfo.cs

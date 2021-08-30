@@ -1,9 +1,0 @@
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\bin\Debug\GenExampleT4Dynamic.exe.config
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\bin\Debug\GenExampleT4Dynamic.exe
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\bin\Debug\GenExampleT4Dynamic.pdb
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\bin\Debug\GeometricModels.dll
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\bin\Debug\GeometricModels.pdb
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\obj\Debug\GenExampleT4Dynamic.csprojAssemblyReference.cache
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\obj\Debug\GenExampleT4Dynamic.csproj.CopyComplete
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\obj\Debug\GenExampleT4Dynamic.exe
-C:\Users\dm_78\Source\Repos\ExcelCodeGeneration\ExcelCodeGen\GenExampleT4Dynamic\obj\Debug\GenExampleT4Dynamic.pdb

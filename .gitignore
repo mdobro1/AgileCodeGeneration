@@ -23,3 +23,5 @@
 /ExcelCodeGen/PolygonTestRectangle/obj
 /ExcelCodeGen/PolygonTestTrapezoid/bin/Debug/netcoreapp3.1
 /ExcelCodeGen/PolygonTestTrapezoid/obj
+/ExcelCodeGen/GeometricModels/obj
+/ExcelCodeGen/GeometricModelsCore/obj
