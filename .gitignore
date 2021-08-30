@@ -25,3 +25,9 @@
 /ExcelCodeGen/PolygonTestTrapezoid/obj
 /ExcelCodeGen/GeometricModels/obj
 /ExcelCodeGen/GeometricModelsCore/obj
+*.config
+/ExcelCodeGen/GenExampleDirect/obj/Debug
+/ExcelCodeGen/GenExampleT4Dynamic/obj/Debug
+/ExcelCodeGen/GeometricModels/bin/Debug/netstandard2.0
+/ExcelCodeGen/GeometricModelsCore/bin/Debug/netcoreapp3.1
+/ExcelCodeGen/TargetCodeDOM/bin/Debug/netcoreapp3.1
