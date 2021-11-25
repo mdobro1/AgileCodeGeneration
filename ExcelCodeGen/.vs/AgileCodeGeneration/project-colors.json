@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "46af2b41-58ac-4279-835f-75de140e0591": {
+      "ProjectGuid": "46af2b41-58ac-4279-835f-75de140e0591",
+      "DisplayName": "GeometricModels",
+      "ColorIndex": 0
+    },
+    "4c4ca62a-ec84-4de0-8eb4-26d97ac9a0cb": {
+      "ProjectGuid": "4c4ca62a-ec84-4de0-8eb4-26d97ac9a0cb",
+      "DisplayName": "GenExampleDirect",
+      "ColorIndex": 1
+    },
+    "0edfbc0a-b3cc-4892-905f-ddd2da851d5d": {
+      "ProjectGuid": "0edfbc0a-b3cc-4892-905f-ddd2da851d5d",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
