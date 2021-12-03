@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Code Generation - Excel"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TargetRuntimeT4", "TargetRuntimeT4\TargetRuntimeT4.csproj", "{0E7DB009-9FF4-4442-BFEE-0F1DA00EB296}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. CodeDOM - Code Generation", "3. CodeDOM - Code Generation", "{1533478B-E786-455F-9004-EFA7881063E0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Code Generation - CodeDOM", "3. Code Generation - CodeDOM", "{1533478B-E786-455F-9004-EFA7881063E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Code Generation - T4", "4. Code Generation - T4", "{AE9198EC-8B3B-43C1-BCEB-B974EEBEA29F}"
 EndProject
