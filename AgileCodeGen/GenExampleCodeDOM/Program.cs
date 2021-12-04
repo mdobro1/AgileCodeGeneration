@@ -245,15 +245,19 @@ namespace GenExampleCodeDOM
             targetClass.Members.Add(start);
         }
         /// <summary>
-        /// Generate CSharp source code from the compile unit.
+        /// Generate source code from the compile unit.
         /// </summary>
         /// <param name="filename">Output file name</param>
-        public void GenerateCSharpCode(string fileName)
+        public void GenerateTargetCode(string fileName)
         {
-            CodeDomProvider provider = CodeDomProvider.CreateProvider("CSharp");
+            var provider = new CSharpCodeProvider();
+            //var provider = CodeDomProvider.CreateProvider("CSharp");
+            //var provider = CodeDomProvider.CreateProvider("JScript");
+            //var provider = CodeDomProvider.CreateProvider("VB");
+
             CodeGeneratorOptions options = new CodeGeneratorOptions();
             options.BracingStyle = "C";
-            using (StreamWriter sourceWriter = new StreamWriter(fileName))
+            using (StreamWriter sourceWriter = new StreamWriter(fileName  ))
             {
                 provider.GenerateCodeFromCompileUnit(
                     targetUnit, sourceWriter, options);
@@ -296,7 +300,7 @@ namespace GenExampleCodeDOM
             codeGenerator.AddMethod();
             codeGenerator.AddConstructor();
             codeGenerator.AddEntryPoint();
-            codeGenerator.GenerateCSharpCode(fileName);
+            codeGenerator.GenerateTargetCode(fileName);
         }
 
         private static void GenerateCodeInTargetProject()
