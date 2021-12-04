@@ -3,10 +3,10 @@
 //     Dieser Code wurde von einem Tool generiert.
 // </auto-generated>
 //------------------------------------------------------------------------------
+using System;
+
 namespace PolygonSamples
 {
-    using System;
-
     public sealed class SampleRectangle
     {   
         // The width of the object.
@@ -25,7 +25,8 @@ namespace PolygonSamples
         {
             this.widthValue = width;
             this.heightValue = height;
-            }
+                        
+        }
         
         // The Area property for the object.
         public double Area { get { return Width * Height; } }

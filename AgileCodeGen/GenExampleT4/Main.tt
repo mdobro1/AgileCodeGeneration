@@ -7,10 +7,10 @@
 //     Dieser Code wurde von einem Tool generiert.
 // </auto-generated>
 //------------------------------------------------------------------------------
+using System;
+
 namespace <#= RectangleModel.Namespace #>
 {
-    using System;
-
     public sealed class <#= RectangleModel.Class #>
     {   <#
             var types = RectangleModel.Types.Split(',');
@@ -44,7 +44,8 @@ namespace <#= RectangleModel.Namespace #>
             {#>this.<#=field#>Value = <#=field#>;
             <# // next model member
                 i++; 
-            }#>}
+            }#>            
+        }
         
         // The Area property for the object.
         public double Area { get { return <#= RectangleModel.AreaFormula #>; } }
