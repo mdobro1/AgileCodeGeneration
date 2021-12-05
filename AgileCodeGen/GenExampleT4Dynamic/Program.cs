@@ -19,13 +19,15 @@ namespace GenExampleT4Dynamic
         static void Main(string[] args)
         {
             var gencodeMain = new Main();
-            String gencodeMainText = gencodeMain.TransformText();
-            System.IO.File.WriteAllText(OutputFileOfTargetProject, gencodeMainText);
-            Console.WriteLine("Generated file: " + OutputFileOfTargetProject);
-
             var gencodeReport = new MainReport();
+
+            String gencodeMainText = gencodeMain.TransformText();
             String gencodeReportText = gencodeReport.TransformText();
+            
+            System.IO.File.WriteAllText(OutputFileOfTargetProject, gencodeMainText);
             System.IO.File.WriteAllText(ReportFilename, gencodeReportText);
+
+            Console.WriteLine("Generated file: " + OutputFileOfTargetProject);
             System.Diagnostics.Process.Start(ReportFilename);
         }
     }
