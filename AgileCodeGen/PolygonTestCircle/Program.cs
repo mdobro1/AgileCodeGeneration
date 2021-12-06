@@ -25,13 +25,13 @@ namespace PolygonTestCircle
         public override string ToString()
         {
             // Polygon main values
-            var result = string.Format("The Circle object:\r\n   Area = {0}\r\n   Perimeter = {1}", this.Area, this.Perimeter);
+            var result = $"The Circle object:\r\n   Area = {this.Area}\r\n   Perimeter = {this.Perimeter}";
             // Polygon main attributes
             result += "\r\n--------\r\n Main attributes:";
-            result += string.Format("\r\n   Radius = {0}", this.Radius);
+            result += $"\r\n   Radius = {this.Radius}";
             // Polygon derived attributes
             result += "\r\n--------\r\n Derived attributes:";
-            result += string.Format("\r\n   Diameter = {0}", this.Diameter);
+            result += $"\r\n   Diameter = {this.Diameter}";
             return result;
         }
 

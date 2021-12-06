@@ -42,27 +42,27 @@ namespace ExcelCodeGen
         public override string ToString()
         {
             // Polygon main values
-            var result = string.Format("The  object:\r\n   Area = {0}\r\n   Perimeter = {1}", this.Area, this.Perimeter);
+            var result = $"The Trapezoid object:\r\n   Area = {this.Area}\r\n   Perimeter = {this.Perimeter}";
             // Polygon main attributes
             result += "\r\n--------\r\n Main attributes:";
-            result += string.Format("\r\n   ShortBase = {0}", this.ShortBase);
-            result += string.Format("\r\n   LongBase = {0}", this.LongBase);
-            result += string.Format("\r\n   LeftLeg = {0}", this.LeftLeg);
-            result += string.Format("\r\n   RightLeg = {0}", this.RightLeg);
+            result += $"\r\n   ShortBase = {this.ShortBase}";
+            result += $"\r\n   LongBase = {this.LongBase}";
+            result += $"\r\n   LeftLeg = {this.LeftLeg}";
+            result += $"\r\n   RightLeg = {this.RightLeg}";
             // Polygon derived attributes
             result += "\r\n--------\r\n Derived attributes:";
-            result += string.Format("\r\n   MiddleLine = {0}", this.MiddleLine);
-            result += string.Format("\r\n   RightSmallBase = {0}", this.RightSmallBase);
-            result += string.Format("\r\n   LeftSmallBase = {0}", this.LeftSmallBase);
-            result += string.Format("\r\n   Height = {0}", this.Height);
-            result += string.Format("\r\n   LeftRadianAngle_LongBase = {0}", this.LeftRadianAngle_LongBase);
-            result += string.Format("\r\n   RightRadianAngle_LongBase = {0}", this.RightRadianAngle_LongBase);
-            result += string.Format("\r\n   LeftRadianAngle_ShortBase = {0}", this.LeftRadianAngle_ShortBase);
-            result += string.Format("\r\n   RightRadianAngle_ShortBase = {0}", this.RightRadianAngle_ShortBase);
-            result += string.Format("\r\n   LeftDegreeAngle_LongBase = {0}", this.LeftDegreeAngle_LongBase);
-            result += string.Format("\r\n   RightDegreeAngle_LongBase = {0}", this.RightDegreeAngle_LongBase);
-            result += string.Format("\r\n   LeftDegreeAngle_ShortBase = {0}", this.LeftDegreeAngle_ShortBase);
-            result += string.Format("\r\n   RightDegreeAngle_ShortBase = {0}", this.RightDegreeAngle_ShortBase);
+            result += $"\r\n   MiddleLine = {this.MiddleLine}";
+            result += $"\r\n   RightSmallBase = {this.RightSmallBase}";
+            result += $"\r\n   LeftSmallBase = {this.LeftSmallBase}";
+            result += $"\r\n   Height = {this.Height}";
+            result += $"\r\n   LeftRadianAngle_LongBase = {this.LeftRadianAngle_LongBase}";
+            result += $"\r\n   RightRadianAngle_LongBase = {this.RightRadianAngle_LongBase}";
+            result += $"\r\n   LeftRadianAngle_ShortBase = {this.LeftRadianAngle_ShortBase}";
+            result += $"\r\n   RightRadianAngle_ShortBase = {this.RightRadianAngle_ShortBase}";
+            result += $"\r\n   LeftDegreeAngle_LongBase = {this.LeftDegreeAngle_LongBase}";
+            result += $"\r\n   RightDegreeAngle_LongBase = {this.RightDegreeAngle_LongBase}";
+            result += $"\r\n   LeftDegreeAngle_ShortBase = {this.LeftDegreeAngle_ShortBase}";
+            result += $"\r\n   RightDegreeAngle_ShortBase = {this.RightDegreeAngle_ShortBase}";
             return result;
         }
 

@@ -46,11 +46,11 @@ namespace PolygonSamples
         
         public override string ToString()
         {
-            var result = string.Format("The Trapezoid object:\r\n Perimeter = {0}", this.Perimeter);
-            result += string.Format("\r\n ShortBase = {0}", ShortBase);
-            result += string.Format("\r\n LongBase = {0}", LongBase);
-            result += string.Format("\r\n LeftLeg = {0}", LeftLeg);
-            result += string.Format("\r\n RightLeg = {0}", RightLeg);
+            var result = $"The Trapezoid object:\r\n Perimeter = {this.Perimeter}";
+            result += $"\r\n ShortBase = {ShortBase}";
+            result += $"\r\n LongBase = {LongBase}";
+            result += $"\r\n LeftLeg = {LeftLeg}";
+            result += $"\r\n RightLeg = {RightLeg}";
             return result;
         }
         

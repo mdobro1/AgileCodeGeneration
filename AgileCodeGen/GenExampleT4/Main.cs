@@ -33,9 +33,9 @@ namespace PolygonSamples
         
         public override string ToString()
         {
-            var result = string.Format("The rectangle object:\r\n Area = {0}", this.Area);
-            result += string.Format("\r\n Width = {0}", Width);
-            result += string.Format("\r\n Height = {0}", Height);
+            var result = $"The rectangle object:\r\n Area = {this.Area}";
+            result += $"\r\n Width = {Width}";
+            result += $"\r\n Height = {Height}";
             return result;
         }
         

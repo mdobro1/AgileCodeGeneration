@@ -52,9 +52,9 @@ namespace <#= RectangleModel.Namespace #>
         
         public override string ToString()
         {
-            var result = string.Format("The rectangle object:\r\n Area = {0}", this.Area);
+            var result = $"The rectangle object:\r\n Area = {this.Area}";
             <#foreach (var property in props)
-            {#>result += string.Format("\r\n <#=property#> = {0}", <#=property#>);
+            {#>result += $"\r\n <#=property#> = {<#=property#>}";
             <#}#>return result;
         }
         

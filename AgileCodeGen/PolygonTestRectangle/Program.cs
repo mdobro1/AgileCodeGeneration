@@ -10,8 +10,8 @@ namespace ExcelCodeGen
     public sealed class RectanglePolygon
     {
         // Attributes (fields)
-        private double m_Width = 10.0;
-        private double m_Height = 15.0;
+        private double m_Width = 15.0;
+        private double m_Height = 10.0;
 
         // Attributes (properties)
         public double Width { get { return this.m_Width; } }
@@ -27,14 +27,14 @@ namespace ExcelCodeGen
         public override string ToString()
         {
             // Polygon main values
-            var result = string.Format("The Area Formula  object:\r\n   Area = {0}\r\n   Perimeter = {1}", this.Area, this.Perimeter);
+            var result = $"The Rectangle object:\r\n   Area = {this.Area}\r\n   Perimeter = {this.Perimeter}";
             // Polygon main attributes
             result += "\r\n--------\r\n Main attributes:";
-            result += string.Format("\r\n   Width = {0}", this.Width);
-            result += string.Format("\r\n   Height = {0}", this.Height);
+            result += $"\r\n   Width = {this.Width}";
+            result += $"\r\n   Height = {this.Height}";
             // Polygon derived attributes
             result += "\r\n--------\r\n Derived attributes:";
-            result += string.Format("\r\n   Diagonal = {0}", this.Diagonal);
+            result += $"\r\n   Diagonal = {this.Diagonal}";
             return result;
         }
 
